@@ -29,3 +29,12 @@ template: |
   ## Changes
 
   $CHANGES
+
+  ### Usage
+
+  These changes are published as part of the docker image `chweicki/noria-ui:$RESOLVED_VERSION` which is published to docker hub
+
+  ```
+  docker run -p 8080:80 chweicki/noria-ui:$RESOLVED_VERSION
+  ```
+  > Will expose noria ui on your local port 8080
