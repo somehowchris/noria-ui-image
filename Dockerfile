@@ -10,7 +10,7 @@ COPY src/ .
 
 RUN make
 
-FROM nginx:1.20.1-alpine
+FROM nginx:1.21.3-alpine
 
 WORKDIR /serve
 
