@@ -1,5 +1,7 @@
 # Nora ui image
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/somehowchris/noria-ui-image)
+
 The high performance database noria has it's [own ui](https://github.com/mit-pdos/noria-ui), this repository adds scripts and files to build it as a docker image.
 
 ## Using the image
