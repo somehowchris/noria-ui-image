@@ -1,4 +1,4 @@
-FROM python:3.10.3-alpine3.14 as build-stage
+FROM python:3.10.4-alpine3.14 as build-stage
 
 RUN apk add --no-cache alpine-sdk
 RUN /usr/local/bin/python -m pip install --upgrade pip
